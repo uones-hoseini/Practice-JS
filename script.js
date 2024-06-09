@@ -6,7 +6,7 @@ function star1(x) {
 document.write(
   "<br>" + "Practice 1______________________________________________" + "<br>"
 );
-star1(10);
+// star1(10);
 
 //#region practice 2
 function star2(x) {
@@ -15,19 +15,12 @@ function star2(x) {
     document.write("<br>");
   }
 }
-// function star2(x) {
-//   for (let i = 1; i <= x; i++) {
-//     for (let j = 1; j <= x; j++) {
-//       document.write("*" + "         ");
-//     }
-//     document.write("<br>");
-//   }
-// }
+
 
 document.write(
   "<br>" + "Practice2______________________________________________" + "<br>"
 );
-star2(5);
+// star2(5);
 //#endregion
 
 //#region  practice 3
@@ -40,7 +33,7 @@ function star3(x) {
 document.write(
   "<br>" + "Practice3______________________________________________" + "<br>"
 );
-star3(5);
+// star3(5);
 //#endregion
 
 function star4(x) {
@@ -55,7 +48,7 @@ function star4(x) {
 document.write(
   "<br>" + "Practice4______________________________________________" + "<br>"
 );
-star4(5);
+// star4(5);
 
 function star5(x) {
   for (let i = x; i > 0; i--) {
@@ -77,7 +70,7 @@ function star5(x) {
 document.write(
   "<br>" + "Practice5______________________________________________" + "<br>"
 );
-star5(5);
+// star5(5);
 
 // function star6(x) {
 //   let k=1
