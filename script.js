@@ -59,20 +59,21 @@ function star5(x) {
 }
 
 // star5(5);
-
+function printSpace(n) {
+       for (
+         let numberOfSpaces = 1;
+         numberOfSpaces <= n ;
+         numberOfSpaces++
+       ) {
+         document.write("&nbsp &nbsp");
+       }
+}
 function star6(n) {
   for (let lineNumber = 1; lineNumber <= n; lineNumber++) {
-    for (
-      let numberOfSpaces = 1;
-      numberOfSpaces <= n - lineNumber;
-      numberOfSpaces++
-    ) {
-      document.write("&nbsp &nbsp");
+    
+      printSpace(n-lineNumber)
+      star1(lineNumber);
 
-    }
-    for (let star = 0;  star < lineNumber; star++){
-       document.write("* ");
-    }
     document.write("<br>");
   }
 }
