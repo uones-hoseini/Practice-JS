@@ -16,7 +16,6 @@ function star2(x) {
   }
 }
 
-
 document.write(
   "<br>" + "Practice2______________________________________________" + "<br>"
 );
@@ -48,7 +47,7 @@ function star4(x) {
 document.write(
   "<br>" + "Practice4______________________________________________" + "<br>"
 );
-// star4(5);
+star4(5);
 
 function star5(x) {
   for (let i = x; i > 0; i--) {
@@ -59,34 +58,38 @@ function star5(x) {
   }
 }
 
-function star5(x) {
-  for (let i = x; i >= 1; i--) {
-    for (let j = 1; j <= i; j++) {
-      document.write("*" + "&nbsp");
+// star5(5);
+
+function star6(n) {
+  for (let lineNumber = 1; lineNumber <= n; lineNumber++) {
+    for (
+      let numberOfSpaces = 1;
+      numberOfSpaces <= n - lineNumber;
+      numberOfSpaces++
+    ) {
+      document.write("&nbsp &nbsp");
+
+    }
+    for (let star = 0;  star < lineNumber; star++){
+       document.write("* ");
     }
     document.write("<br>");
   }
 }
-document.write(
-  "<br>" + "Practice5______________________________________________" + "<br>"
-);
-// star5(5);
-
-// function star6(x) {
-//   let k=1
-//   for (let i = x; i <=x ; i--) {
-//     for (let j = 1; j <= x-1; j++) {
-//         document.write("&nbsp");
-//         for (let s = 1; s <= k;s++)
-//         {
-//             document.write("*");
-//         }
-//     }
-//     document.write("<br>");
-//   }
-// }
 
 document.write(
   "<br>" + "Practice6______________________________________________" + "<br>"
 );
-// star6(5);
+star6(5);
+
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
